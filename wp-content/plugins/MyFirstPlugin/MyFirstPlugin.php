@@ -15,8 +15,6 @@ function MyFirstPlugin_add_menu(){
 
 add_action('admin_menu','MyFirstPlugin_add_menu');
 
-function glowna_MyFirstPlugin(){
-    
-    echo 'Witaj świecie';
-    
+function glowna_MyFirstPlugin(){    
+    include 'page_MyFirstPlugin.php';
 }
